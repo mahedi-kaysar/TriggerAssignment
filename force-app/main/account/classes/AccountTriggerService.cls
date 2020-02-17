@@ -47,8 +47,10 @@ public with sharing class AccountTriggerService {
      */
     private void updateContacts(List<Contact> contactsToUpdate) {
         try {
-            upsert contactsToUpdate;
-            System.debug('Contacts are updated successfully');      
+            if (!contactsToUpdate.isEmpty()){
+                upsert contactsToUpdate;
+                System.debug('Contacts are updated successfully');  
+            }    
         } catch (DmlException ex) {
             System.debug('Exception occured while updating contacts: ' + ex.getCause());
         }
