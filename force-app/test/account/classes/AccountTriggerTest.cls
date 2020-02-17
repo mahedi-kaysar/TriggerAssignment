@@ -1,6 +1,11 @@
 @isTest
-private class AccountTriggerTest { 
-    @isTest static void distributeShareEquallyToContacts_onAfterUpdate() {  
+private class AccountTriggerTest {
+  
+    /**
+     * This method tests the AccountTrigger on bulk upadate of Accounts (changing Total__c value)
+     * and see that shares are equally distributted amoung the contacts of associated accounts.
+     */
+    @isTest static void distributeShareEquallyToContacts_onAfterUpdateAccount() {  
         List<Account> accounts = TestDataFactory.createAccounts(2);
         TestDataFactory.createContacts(accounts[0], 2);
         TestDataFactory.createContacts(accounts[1], 1);
