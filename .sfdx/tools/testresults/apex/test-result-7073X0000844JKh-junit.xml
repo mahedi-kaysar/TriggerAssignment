@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-02-17T22:05:32+00:00" hostname="https://eu29.salesforce.com" tests="1" failures="0"  errors="0"  time="0.38">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Feb 17, 2020 10:05 PM"/>
+            <property name="testExecutionTime" value="0.38 s"/>
+            <property name="testTotalTime" value="0.38 s"/>
+            <property name="commandTime" value="3.48 s"/>
+            <property name="hostname" value="https://eu29.salesforce.com"/>
+            <property name="orgId" value="00D3X0000046kdwUAA"/>
+            <property name="username" value="md.mahedi.kaysar@gmail.com"/>
+            <property name="testRunId" value="7073X0000844JKh"/>
+            <property name="userId" value="0053X00000B10B2QAJ"/>
+        </properties>
+        <testcase name="distributeShareEquallyToContacts_onAfterUpdate" classname="AccountTriggerTest" time="0.38">
+        </testcase>
+    </testsuite>
+</testsuites>

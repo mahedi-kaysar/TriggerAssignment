@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Feb 17, 2020 9:31 PM",
+        "testExecutionTime": "7 ms",
+        "testTotalTime": "7 ms",
+        "commandTime": "3861 ms",
+        "hostname": "https://eu29.salesforce.com",
+        "orgId": "00D3X0000046kdwUAA",
+        "username": "md.mahedi.kaysar@gmail.com",
+        "testRunId": "7073X0000844HLj",
+        "userId": "0053X00000B10B2QAJ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v47.0/tooling/sobjects/ApexTestResult/07M3X000006i3moUAA"
+            },
+            "Id": "07M3X000006i3moUAA",
+            "QueueItemId": "7093X000000NToOQAW",
+            "StackTrace": "Class.AccountTriggerTest.distributeShareEquallyToContacts_onAfterUpdate: line 40, column 1",
+            "Message": "System.NullPointerException: Attempt to de-reference a null object",
+            "AsyncApexJobId": "7073X0000844HLjQAM",
+            "MethodName": "distributeShareEquallyToContacts_onAfterUpdate",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v47.0/tooling/sobjects/ApexClass/01p3X00000Ezcc3QAB"
+                },
+                "Id": "01p3X00000Ezcc3QAB",
+                "Name": "AccountTriggerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 7,
+            "FullName": "AccountTriggerTest.distributeShareEquallyToContacts_onAfterUpdate"
+        }
+    ]
+}

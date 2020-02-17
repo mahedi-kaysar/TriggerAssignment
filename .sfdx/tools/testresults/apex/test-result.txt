@@ -1,0 +1,33 @@
+=== Test Reports
+FORMAT  FILE
+──────  ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     c:\Users\mkaysar\Documents\Personal\salesforce-dev\TriggerAssignment\.sfdx\tools\testresults\apex\test-result.txt
+txt     c:\Users\mkaysar\Documents\Personal\salesforce-dev\TriggerAssignment\.sfdx\tools\testresults\apex\test-run-id.txt
+junit   c:\Users\mkaysar\Documents\Personal\salesforce-dev\TriggerAssignment\.sfdx\tools\testresults\apex\test-result-7073X0000844KEI-junit.xml
+json    c:\Users\mkaysar\Documents\Personal\salesforce-dev\TriggerAssignment\.sfdx\tools\testresults\apex\test-result-7073X0000844KEI.json
+
+=== Test Results
+TEST NAME                                                          OUTCOME  MESSAGE  RUNTIME (MS)
+─────────────────────────────────────────────────────────────────  ───────  ───────  ────────────
+AccountTriggerTest.distributeShareEquallyToContacts_onAfterUpdate  Pass              906
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ────────────────────────────
+Outcome              Passed
+Tests Ran            1
+Passing              1
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Feb 17, 2020 10:18 PM
+Test Execution Time  906 ms
+Test Total Time      906 ms
+Command Time         4059 ms
+Hostname             https://eu29.salesforce.com
+Org Id               00D3X0000046kdwUAA
+Username             md.mahedi.kaysar@gmail.com
+Test Run Id          7073X0000844KEI
+User Id              0053X00000B10B2QAJ
+

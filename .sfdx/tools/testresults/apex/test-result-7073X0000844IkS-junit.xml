@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-02-17T21:40:59+00:00" hostname="https://eu29.salesforce.com" tests="1" failures="1"  errors="0"  time="0.53">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Feb 17, 2020 9:40 PM"/>
+            <property name="testExecutionTime" value="0.53 s"/>
+            <property name="testTotalTime" value="0.53 s"/>
+            <property name="commandTime" value="3.79 s"/>
+            <property name="hostname" value="https://eu29.salesforce.com"/>
+            <property name="orgId" value="00D3X0000046kdwUAA"/>
+            <property name="username" value="md.mahedi.kaysar@gmail.com"/>
+            <property name="testRunId" value="7073X0000844IkS"/>
+            <property name="userId" value="0053X00000B10B2QAJ"/>
+        </properties>
+        <testcase name="distributeShareEquallyToContacts_onAfterUpdate" classname="AccountTriggerTest" time="0.53">
+            <failure message="System.AssertException: Assertion Failed: Expected: 200, Actual: 100.00"><![CDATA[Class.AccountTriggerTest.distributeShareEquallyToContacts_onAfterUpdate: line 48, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

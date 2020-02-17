@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Feb 17, 2020 9:42 PM",
+        "testExecutionTime": "538 ms",
+        "testTotalTime": "538 ms",
+        "commandTime": "3834 ms",
+        "hostname": "https://eu29.salesforce.com",
+        "orgId": "00D3X0000046kdwUAA",
+        "username": "md.mahedi.kaysar@gmail.com",
+        "testRunId": "7073X0000844Ij1",
+        "userId": "0053X00000B10B2QAJ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v47.0/tooling/sobjects/ApexTestResult/07M3X000006i3nhUAA"
+            },
+            "Id": "07M3X000006i3nhUAA",
+            "QueueItemId": "7093X000000NToyQAG",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073X0000844Ij1QAE",
+            "MethodName": "distributeShareEquallyToContacts_onAfterUpdate",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v47.0/tooling/sobjects/ApexClass/01p3X00000Ezcc3QAB"
+                },
+                "Id": "01p3X00000Ezcc3QAB",
+                "Name": "AccountTriggerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 538,
+            "FullName": "AccountTriggerTest.distributeShareEquallyToContacts_onAfterUpdate"
+        }
+    ]
+}
